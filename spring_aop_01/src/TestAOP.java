@@ -3,7 +3,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import spring.aop.core.BusinessService;
 
-
+//오송이 수정 
 public class TestAOP {
 
 	public static void main(String[] args) {

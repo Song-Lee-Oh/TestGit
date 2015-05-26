@@ -4,7 +4,7 @@ import org.apache.log4j.Logger;
 import org.aspectj.lang.ProceedingJoinPoint;
 //공통 로직을 처리할 메소드들을 구현할 클래스
 public class LoggerAspect {
-
+//
 	
 	private static Logger logger = Logger.getLogger(LoggerAspect.class);
 	//핵심로직이 처리되기 전에 먼저 실행될 공통로직
