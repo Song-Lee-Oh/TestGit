@@ -3,9 +3,11 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import spring.aop.core.BusinessService;
 
+
 //오송이 수정
 //송이가 수정
 //인식이꺼 수정 고치기
+
 public class TestAOP {
 
 	public static void main(String[] args) {
@@ -18,7 +20,7 @@ public class TestAOP {
 		
 		System.out.println("****************");
 		service.businessMethodBefore2("홍기롱");
-	System.out.println("------------------");
+		System.out.println("------------------");
 		String ret =service.businessMethodReturn();
 		System.out.println("--main(): 호출결과 :"+ ret);
 		
